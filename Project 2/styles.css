@@ -1,0 +1,178 @@
+#body2{
+    background-color: rgb(245, 245, 245);
+    background-image: url(visuals/3ds.png);
+    background-repeat: repeat-x;
+    background-position: bottom left;
+    background-size: 20px;
+    background-attachment: fixed;
+}
+
+#title{
+    font-size: 90px;
+    text-align: center;
+    font-family: Impact;
+    margin-top: -15px;
+}
+
+#explanation{
+    margin-top: -60px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Impact;
+}
+
+#guide{
+    margin-top: -20px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Impact;
+}
+
+#choices{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.images{
+    height: 354px;
+    width: 354px;
+    border: solid;
+    border-color: black;
+    border-radius: 20px;
+    background-color: black;
+    border-width: 3px;
+}
+
+.headings{
+    font-size: 50px;
+    font-family: Impact;
+    background-color: rgb(223, 178, 246);
+    text-indent: 0.5em;
+}
+
+.paragraph{
+    font-size: 25px;
+    font-family: Arial;
+    background-color: rgb(245, 245, 245);
+    text-indent: 10px;
+}
+
+.images2{
+    height: 300px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    background-color: rgb(245, 245, 245);
+}
+
+#emu{
+    display: grid;
+    grid-template: 1fr / 3fr 1fr
+}
+
+.table{
+    border-style: solid;
+    border-color: gray;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+}
+
+.playable{
+    border-style: solid;
+    border-color: gray;
+    border-radius: 5px;
+    background-color: rgb(251, 251, 117);
+    text-align: center;
+}
+
+.unplayable{
+    border-style: solid;
+    border-color: gray;
+    border-radius: 5px;
+    background-color: rgb(252, 91, 91);
+    text-align: center;
+}
+
+.perfect{
+    border-style: solid;
+    border-color: gray;
+    border-radius: 5px;
+    background-color: rgb(192, 252, 103);
+    text-align: center;
+}
+
+#sonic{
+    margin: .7em 0em 0em;
+}
+
+#utilities{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#body{
+    background-color: rgb(245, 245, 245);
+    background-image: url(visuals/3ds.png); 
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 700px;
+    background-attachment: fixed;
+}
+
+.video{
+    height: 360px;
+    width: 640px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    border-width: 2px;
+}
+
+#subheading{
+    font-size: 30px;
+    font-family: Impact;
+    text-indent: 1.25em;
+    grid-area: subheading;
+}
+
+#videos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#examples{
+    display: grid;
+    grid-template: 7em 1fr /1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "sm64 xash doom subheading"
+    ". . .list"
+}
+
+#list{
+    grid-area: list;
+}
+
+#doom{
+    grid-area: doom;
+}
+
+#sm64{
+    grid-area: sm64;
+}
+
+#xash{
+    grid-area: xash;
+}
+
+#mod{
+    display: flex;
+    justify-content: center;
+}
+
+#devices{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,173 @@
+.heading{
+    text-align: center;
+    font-family: system-ui;
+    font-size: 50px;
+    animation: heading 1s linear 0s infinite alternate none running;
+}
+
+@keyframes heading {
+    100% {
+        transform: translate(10px);
+    }
+}
+
+.time{
+    font-family: system-ui;
+    font-size: 20px;
+}
+
+#selection{
+    display: flex;
+    justify-content: center;
+    animation: selection 1s linear 0s infinite alternate none running;
+    margin: -35px 0px 30px;
+}
+
+@keyframes selection {
+    100% {
+        transform: translate(-10px);
+    }
+}
+
+.img{
+    height: 600px;
+    border-style: ridge;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.img:hover{
+    height: 610px;
+}
+
+.img:active{
+    height: 590px;
+}
+
+#vs{
+    display: flex;
+    justify-content: space-around;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    animation: selection 1s linear 0s infinite alternate none running;
+    margin: -35px 0px 30px;
+    font-family: system-ui;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.home:hover{
+    font-size: 21px;
+}
+
+.home:active{
+    font-size: 19px;
+
+}
+
+.subheading{
+    font-family: system-ui;
+    font-size: 30px;
+    background-color: rgb(160, 219, 160);
+}
+
+.para{
+    font-size: 20px;
+    font-family: system-ui;
+}
+
+.list{
+    font-size: 20px;
+    font-family: system-ui;
+}
+
+.gen{
+    font-family: system-ui;
+    border-style: solid;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.systems{
+    font-family: system-ui;
+    border-style: solid;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5em;
+}
+
+#handhelds{
+    display: grid;
+    grid: 1fr / 1fr 3fr;
+}
+
+#steamdeck{
+    margin: -3em;
+    height: 200px;
+}
+
+#steamdeck:hover{
+    animation: wiggle 1s linear 0s infinite alternate none running;
+    height: 202px;
+}
+
+@keyframes wiggle {
+    from {
+        transform: rotate(3deg);
+    }
+    to {
+        transform: rotate(-3deg);
+    }
+}
+
+#list{
+    display: grid;
+    grid: 1fr / 1fr 1fr 1fr;
+}
+
+#gc{
+    display: grid;
+    grid: 1fr /  3fr 1fr
+}
+
+#steamlogo:hover{
+    height: 90px;
+}
+
+#steamlogo:active{
+    height: 80px;
+}
+
+#steamlogo{
+    animation: spin 2s ease-in-out 0s infinite normal none running;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#steam{
+    display: grid;
+    grid: 1fr / 1fr 12fr
+}
+
+.row{
+    margin: 60px 0em;
+}
+
+#controls{
+    display: grid;
+    grid: 1fr / 1fr 1fr 1fr 3fr;
+}
+
+#emu{
+    display: grid;
+    grid: 1fr / 1fr 1fr;
+}
+
